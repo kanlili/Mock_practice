@@ -30,11 +30,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="37" column="64" lean-forward="true" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+            <state relative-caret-position="508">
+              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/MockSettingsImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -64,61 +73,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesActivityReport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sales/Sales.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
-              <caret line="30" column="107" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="107" />
-              <folding>
-                <element signature="e#1046#1063#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/parking/ParkingLotTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyJMockitTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="1109">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1094#1111#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sales/EcmService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/VipParkingStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parking/CarDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -143,8 +123,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="326" />
-    <option name="y" value="29" />
+    <option name="x" value="-21" />
+    <option name="y" value="14" />
     <option name="width" value="1277" />
     <option name="height" value="1044" />
   </component>
@@ -240,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/bei/2019ITA_TDD_Mocking_Training/mocking_exercise" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -257,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_5_when_call_function_given_maxrow">
+  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_sales_when_call_function_given_salesId">
     <configuration name="SalesAppTest.should_return_10_when_call_function_given_maxrow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
@@ -322,7 +302,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesAppTest.testGenerateReport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
         <pattern>
@@ -332,7 +312,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="sales" />
       <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="testGenerateReport" />
+      <option name="METHOD_NAME" value="should_return_sales_when_call_function_given_salesId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -340,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesAppTest.should_return_sales_when_call_function_given_salesId" />
+        <item itemvalue="JUnit.SalesAppTest.should_return_header_when_call_getHeader_given_nattrade" />
+        <item itemvalue="JUnit.SalesAppTest.should_return_header_when_call_getHeader_given_Isnattrade" />
         <item itemvalue="JUnit.SalesAppTest.should_return_5_when_call_function_given_maxrow" />
         <item itemvalue="JUnit.SalesAppTest.should_return_10_when_call_function_given_maxrow" />
-        <item itemvalue="JUnit.SalesAppTest.should_return_header_when_call_getHeader_given_Isnattrade" />
-        <item itemvalue="JUnit.SalesAppTest.should_return_header_when_call_getHeader_given_nattrade" />
-        <item itemvalue="JUnit.SalesAppTest.testGenerateReport" />
       </list>
     </recent_temporary>
   </component>
@@ -362,42 +342,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VipParkingStrategyJMockitTest_testCalculateHourlyPrice_givenSunday_thenPriceIsDoubleOfSundayPrice - 2019.08.09 at 21h 58m 58s.xml">
-      <configuration name="VipParkingStrategyJMockitTest.testCalculateHourlyPrice_givenSunday_thenPriceIsDoubleOfSundayPrice" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 22h 48m 26s.xml">
+      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VipParkingStrategyJMockitTest_testCalculateHourlyPrice_givenSunday_thenPriceIsDoubleOfSundayPrice - 2019.08.09 at 21h 59m 11s.xml">
-      <configuration name="VipParkingStrategyJMockitTest.testCalculateHourlyPrice_givenSunday_thenPriceIsDoubleOfSundayPrice" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 22h 48m 44s.xml">
+      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_header_when_call_getHeader_given_nattrade - 2019.08.10 at 13h 27m 50s.xml">
-      <configuration name="SalesAppTest.should_return_header_when_call_getHeader_given_nattrade" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 22h 58m 11s.xml">
+      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_header_when_call_getHeader_given_Isnattrade - 2019.08.10 at 13h 30m 28s.xml">
-      <configuration name="SalesAppTest.should_return_header_when_call_getHeader_given_Isnattrade" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 22h 58m 16s.xml">
+      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_testGenerateReport - 2019.08.10 at 13h 30m 32s.xml">
-      <configuration name="SalesAppTest.testGenerateReport" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 22h 58m 19s.xml">
+      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_header_when_call_getHeader_given_nattrade - 2019.08.11 at 18h 09m 07s.xml">
-      <configuration name="SalesAppTest.should_return_header_when_call_getHeader_given_nattrade" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 23h 01m 09s.xml">
+      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_header_when_call_getHeader_given_nattrade - 2019.08.11 at 18h 09m 41s.xml">
-      <configuration name="SalesAppTest.should_return_header_when_call_getHeader_given_nattrade" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 23h 10m 05s.xml">
+      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_header_when_call_getHeader_given_Isnattrade - 2019.08.11 at 18h 11m 53s.xml">
-      <configuration name="SalesAppTest.should_return_header_when_call_getHeader_given_Isnattrade" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 23h 10m 31s.xml">
+      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_10_when_call_function_given_maxrow - 2019.08.11 at 19h 39m 31s.xml">
-      <configuration name="SalesAppTest.should_return_10_when_call_function_given_maxrow" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 23h 11m 05s.xml">
+      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SalesAppTest_should_return_5_when_call_function_given_maxrow - 2019.08.11 at 19h 40m 30s.xml">
-      <configuration name="SalesAppTest.should_return_5_when_call_function_given_maxrow" configurationId="JUnit" />
+    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 23h 12m 12s.xml">
+      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17270789" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -406,24 +386,59 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22426869" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21668473" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26218852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26599148" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22968581" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28169015" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/junit_test$SalesAppTest_should_return_sales_when_call_function_given_salesId.ic" NAME="SalesAppTest.should_return_sales_when_call_function_given_salesId Coverage Results" MODIFIED="1565527479603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sales.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/parking/ParkingBoy.java">
@@ -493,27 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesActivityReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sales/Sales.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sales/EcmService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -572,16 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="30" column="107" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="107" />
-          <folding>
-            <element signature="e#1046#1063#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesReportData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -589,10 +573,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesActivityReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sales/Sales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/MockSettingsImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/Mockito.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar!/org/mockito/internal/creation/cglib/MethodInterceptorFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="197" selection-start-line="15" selection-start-column="197" selection-end-line="15" selection-end-column="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1109">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1094#1111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="37" column="64" lean-forward="true" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+        <state relative-caret-position="508">
+          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

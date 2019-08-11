@@ -9,12 +9,25 @@ public class SalesApp {
 
 	public void generateSalesActivityReport(String salesId, int maxRow, boolean isNatTrade, boolean isSupervisor) {
 
+//		List<SalesReportData> filteredReportDataList = new ArrayList<SalesReportData>();
+//		if (salesId == null) {
+//			return;
+//		}
+//		Sales sales = getSales(salesId);
+//		if (sales == null) return;
+		SalesDao salesDao = new SalesDao();
+
+
+
 		List<SalesReportData> filteredReportDataList = new ArrayList<SalesReportData>();
+
 		if (salesId == null) {
 			return;
 		}
-		Sales sales = getSales(salesId);
-		if (sales == null) return;
+
+		Sales sales = salesDao.getSalesBySalesId(salesId);
+
+		if (IsValidSalesId(sales)) return;
 		List<SalesReportData> reportDataList = getSalesReportData(isSupervisor, filteredReportDataList, sales);
 
 		List<SalesReportData> tempList = getSalesReportDataList(maxRow, reportDataList);
@@ -25,7 +38,7 @@ public class SalesApp {
 
 		EcmService ecmService = new EcmService();
 		ecmService.uploadDocument(report.toXml());
-		
+
 	}
 
 	protected List<SalesReportData> getSalesReportDataList(int maxRow, List<SalesReportData> reportDataList) {
@@ -54,8 +67,9 @@ public class SalesApp {
 		return reportDataList;
 	}
 
-	private Sales getSales(String salesId) {
-		SalesDao salesDao = new SalesDao();
+	protected Sales getSales(String salesId) {
+		SalesDao salesDao=new SalesDao();
+		//SalesDao salesDao = new SalesDao();
 		Sales sales = salesDao.getSalesBySalesId(salesId);
 
 		Date today = new Date();
@@ -63,7 +77,16 @@ public class SalesApp {
 				|| today.before(sales.getEffectiveFrom())){
 			return null;
 		}
+
 		return sales;
+	}
+	protected boolean IsValidSalesId(Sales sales) {
+		Date today = new Date();
+		if (today.after(sales.getEffectiveTo())
+				|| today.before(sales.getEffectiveFrom())){
+			return true;
+		}
+		return false;
 	}
 
 	protected List<String> getHeader(boolean isNatTrade) {
@@ -82,3 +105,4 @@ public class SalesApp {
 	}
 
 }
+
