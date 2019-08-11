@@ -28,7 +28,7 @@ public class SalesApp {
 		
 	}
 
-	private List<SalesReportData> getSalesReportDataList(int maxRow, List<SalesReportData> reportDataList) {
+	protected List<SalesReportData> getSalesReportDataList(int maxRow, List<SalesReportData> reportDataList) {
 		List<SalesReportData> tempList = new ArrayList<SalesReportData>();
 		for (int i=0; i < reportDataList.size() || i < maxRow; i++) {
 			tempList.add(reportDataList.get(i));
