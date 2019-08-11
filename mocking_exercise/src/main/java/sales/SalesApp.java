@@ -29,9 +29,13 @@ public class SalesApp {
 
 		SalesActivityReport report = this.generateReport(headers, reportDataList);
 
+		getUploadDocument(report);
+
+	}
+
+	protected void getUploadDocument(SalesActivityReport report) {
 		EcmService ecmService = new EcmService();
 		ecmService.uploadDocument(report.toXml());
-
 	}
 
 	protected List<SalesReportData> getSalesReportDataList(int maxRow, List<SalesReportData> reportDataList) {
