@@ -8,13 +8,6 @@ import java.util.List;
 public class SalesApp {
 
 	public void generateSalesActivityReport(String salesId, int maxRow, boolean isNatTrade, boolean isSupervisor) {
-
-//		List<SalesReportData> filteredReportDataList = new ArrayList<SalesReportData>();
-//		if (salesId == null) {
-//			return;
-//		}
-//		Sales sales = getSales(salesId);
-//		if (sales == null) return;
 		SalesDao salesDao = new SalesDao();
 
 
@@ -65,20 +58,6 @@ public class SalesApp {
 			}
 		}
 		return reportDataList;
-	}
-
-	protected Sales getSales(String salesId) {
-		SalesDao salesDao=new SalesDao();
-		//SalesDao salesDao = new SalesDao();
-		Sales sales = salesDao.getSalesBySalesId(salesId);
-
-		Date today = new Date();
-		if (today.after(sales.getEffectiveTo())
-				|| today.before(sales.getEffectiveFrom())){
-			return null;
-		}
-
-		return sales;
 	}
 	protected boolean IsValidSalesId(Sales sales) {
 		Date today = new Date();

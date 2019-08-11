@@ -69,4 +69,16 @@ public class SalesAppTest {
 		Assert.assertEquals(true,result);
 
 	}
+	@Test
+	public  void should_return_true_when_call_function_given_sale(){
+		Date today = new Date();
+		Date yestertoday=new Date(today.getTime()-86400000L);
+		Date tomorrow=new Date(today.getTime()+86400000L);
+		Sales sales=mock(Sales.class);
+		when(sales.getEffectiveTo()).thenReturn(tomorrow);
+		when(sales.getEffectiveFrom()).thenReturn(tomorrow);
+		boolean result = salesApp5.IsValidSalesId(sales);
+		Assert.assertEquals(true,result);
+
+	}
 }

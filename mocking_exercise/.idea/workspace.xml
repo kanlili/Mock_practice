@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+            <state relative-caret-position="451">
+              <caret line="77" column="58" lean-forward="true" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1109">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="400">
+              <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1094#1111#0" expanded="true" />
@@ -237,7 +237,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_true_when_call_function_given_sales">
+  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_true_when_call_function_given_sale">
+    <configuration name="SalesAppTest.should_return_false_when_call_function_given_sale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="should_return_false_when_call_function_given_sale" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SalesAppTest.should_return_false_when_call_function_given_sales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
@@ -254,38 +270,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesAppTest.should_return_header_when_call_getHeader_given_Isnattrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="should_return_header_when_call_getHeader_given_Isnattrade" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalesAppTest.should_return_header_when_call_getHeader_given_nattrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="should_return_header_when_call_getHeader_given_nattrade" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
@@ -297,6 +281,22 @@
       <option name="PACKAGE_NAME" value="sales" />
       <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
       <option name="METHOD_NAME" value="should_return_sales_when_call_function_given_salesId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesAppTest.should_return_true_when_call_function_given_sale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="should_return_true_when_call_function_given_sale" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -320,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesAppTest.should_return_true_when_call_function_given_sale" />
+        <item itemvalue="JUnit.SalesAppTest.should_return_false_when_call_function_given_sale" />
         <item itemvalue="JUnit.SalesAppTest.should_return_true_when_call_function_given_sales" />
         <item itemvalue="JUnit.SalesAppTest.should_return_false_when_call_function_given_sales" />
         <item itemvalue="JUnit.SalesAppTest.should_return_sales_when_call_function_given_salesId" />
-        <item itemvalue="JUnit.SalesAppTest.should_return_header_when_call_getHeader_given_nattrade" />
-        <item itemvalue="JUnit.SalesAppTest.should_return_header_when_call_getHeader_given_Isnattrade" />
       </list>
     </recent_temporary>
   </component>
@@ -342,18 +342,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 22h 48m 26s.xml">
-      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 22h 48m 44s.xml">
-      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 22h 58m 11s.xml">
-      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 22h 58m 16s.xml">
-      <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 22h 58m 19s.xml">
       <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
@@ -372,12 +360,24 @@
     <history-entry file="SalesAppTest_should_return_sales_when_call_function_given_salesId - 2019.08.11 at 23h 12m 12s.xml">
       <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SalesAppTest_should_return_false_when_call_function_given_sales - 2019.08.11 at 23h 16m 22s.xml">
+      <configuration name="SalesAppTest.should_return_false_when_call_function_given_sales" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesAppTest_should_return_false_when_call_function_given_sales - 2019.08.11 at 23h 18m 22s.xml">
+      <configuration name="SalesAppTest.should_return_false_when_call_function_given_sales" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesAppTest_should_return_false_when_call_function_given_sales - 2019.08.11 at 23h 18m 33s.xml">
+      <configuration name="SalesAppTest.should_return_false_when_call_function_given_sales" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SalesAppTest_should_return_true_when_call_function_given_sales - 2019.08.11 at 23h 19m 23s.xml">
+      <configuration name="SalesAppTest.should_return_true_when_call_function_given_sales" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,7 +386,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21668473" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21668473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26218852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -617,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1109">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="400">
+          <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1094#1111#0" expanded="true" />
@@ -628,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+        <state relative-caret-position="451">
+          <caret line="77" column="58" lean-forward="true" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
