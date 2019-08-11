@@ -249,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_header_when_call_getHeader_given_nattrade">
+  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_header_when_call_getHeader_given_Isnattrade">
     <configuration name="SalesAppTest.should_return_header_when_call_getHeader_given_Isnattrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
@@ -332,9 +332,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesAppTest.should_return_header_when_call_getHeader_given_Isnattrade" />
         <item itemvalue="JUnit.SalesAppTest.should_return_header_when_call_getHeader_given_nattrade" />
         <item itemvalue="JUnit.SalesAppTest.testGenerateReport" />
-        <item itemvalue="JUnit.SalesAppTest.should_return_header_when_call_getHeader_given_Isnattrade" />
         <item itemvalue="JUnit.VipParkingStrategyJMockitTest.testCalculateHourlyPrice_givenSunday_thenPriceIsDoubleOfSundayPrice" />
         <item itemvalue="JUnit.VipParkingStrategyTest.testIsAllowOverPark_givenCarNameContainsCharacterAAndIsNotVipCar_thenReturnFalse" />
       </list>

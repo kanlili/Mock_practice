@@ -21,5 +21,10 @@ public class SalesAppTest {
 		List<String>header=salesApp.getHeader(true);
 		Assert.assertEquals(true,header.contains("Time"));
 	}
-    
+    @Test
+	public void should_return_header_when_call_getHeader_given_Isnattrade(){
+		SalesApp salesApp=new SalesApp();
+		List<String>header=salesApp.getHeader(false);
+		Assert.assertEquals(true,header.contains("Local Time"));
+	}
 }
