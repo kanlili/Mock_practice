@@ -93,4 +93,11 @@ public class SalesAppTest {
 		Assert.assertEquals(true,result);
 
 	}
+	@Test
+	public  void should_return_document_when_call_function_given_report(){
+		SalesActivityReport salesActivityReport=new SalesActivityReport();
+        salesApp5.getUploadDocument(salesActivityReport);
+        EcmService ecmService=mock(EcmService.class);
+        verify(ecmService,times(0)).uploadDocument(any());
+	}
 }
