@@ -237,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_true_when_call_function_given_sale">
+  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_true_when_call_function_given_salee">
     <configuration name="SalesAppTest.should_return_false_when_call_function_given_sale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
@@ -270,22 +270,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesAppTest.should_return_sales_when_call_function_given_salesId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sales.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sales" />
-      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
-      <option name="METHOD_NAME" value="should_return_sales_when_call_function_given_salesId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SalesAppTest.should_return_true_when_call_function_given_sale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
@@ -297,6 +281,22 @@
       <option name="PACKAGE_NAME" value="sales" />
       <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
       <option name="METHOD_NAME" value="should_return_true_when_call_function_given_sale" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesAppTest.should_return_true_when_call_function_given_salee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="should_return_true_when_call_function_given_salee" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -320,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SalesAppTest.should_return_true_when_call_function_given_sale" />
+        <item itemvalue="JUnit.SalesAppTest.should_return_true_when_call_function_given_salee" />
         <item itemvalue="JUnit.SalesAppTest.should_return_false_when_call_function_given_sale" />
+        <item itemvalue="JUnit.SalesAppTest.should_return_true_when_call_function_given_sale" />
         <item itemvalue="JUnit.SalesAppTest.should_return_true_when_call_function_given_sales" />
         <item itemvalue="JUnit.SalesAppTest.should_return_false_when_call_function_given_sales" />
-        <item itemvalue="JUnit.SalesAppTest.should_return_sales_when_call_function_given_salesId" />
       </list>
     </recent_temporary>
   </component>
