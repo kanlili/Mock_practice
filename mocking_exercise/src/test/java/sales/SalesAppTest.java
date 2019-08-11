@@ -18,15 +18,8 @@ public class SalesAppTest {
 	@Test
 	public void should_return_header_when_call_getHeader_given_nattrade(){
 		SalesApp salesApp=new SalesApp();
-		List<String>header= Arrays.asList("Sales ID", "Sales Name", "Activity", "Time");
-		salesApp.getHeader(true);
-		Assert.assertEquals(header.get(3),"Time");
+		List<String>header=salesApp.getHeader(true);
+		Assert.assertEquals(true,header.contains("Time"));
 	}
-	@Test
-	public void should_return_header_when_call_getHeader_given_Isnattrade(){
-		SalesApp salesApp=new SalesApp();
-		List<String>header= Arrays.asList("Sales ID", "Sales Name", "Activity", "Local Time");
-		salesApp.getHeader(false);
-		Assert.assertEquals(header.get(3),"Local Time");
-	}
+    
 }
